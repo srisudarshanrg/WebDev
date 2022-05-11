@@ -1,7 +1,15 @@
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+.heading {
+    background-color: #8ddbeb;
+    color: #5C6AC4;
+    font-family: 'Oleo Script', cursive;
+    padding: 4% 0% 3% 0%;
+    text-align: center;
 }
 
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
+h1 {
+    font-size: 3.5rem;
+}
+
+.pirate {
+    padding: 2% 0% 3% 0%;
 }
