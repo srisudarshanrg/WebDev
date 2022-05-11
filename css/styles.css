@@ -1,8 +1,12 @@
+.nav-link {
+    margin: 0px 15px 0px 15px;
+}
+
 .heading {
     background-color: #8ddbeb;
     color: #5C6AC4;
     font-family: 'Oleo Script', cursive;
-    padding: 4% 0% 3% 0%;
+    padding: 2% 0% 2% 0%;
     text-align: center;
 }
 
@@ -11,5 +15,11 @@ h1 {
 }
 
 .pirate {
-    padding: 2% 0% 3% 0%;
+    padding: 1% 0% 1% 0%;
+}
+
+.side-image {
+    height: 150px;
+    width: 150px;
+    margin: 0px 20px 0px 20px;
 }
