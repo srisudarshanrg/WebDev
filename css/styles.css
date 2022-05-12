@@ -79,4 +79,16 @@ ul {
     text-align: center;
 }
 
+.my-skill-head {
+    color: #7c59f0;
+    font-weight: bold;
+    font-family: 'Oleo Script', sans-serif;
+}
 
+.skill-head {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.skill-content {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, Trebuchet MS, sans-serif;
+}
