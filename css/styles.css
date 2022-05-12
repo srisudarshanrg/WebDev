@@ -1,7 +1,10 @@
+/* Navbar */
 .nav-link {
     margin: 0px 15px 0px 15px;
+    font-weight: bold;
 }
 
+/* Giving Introduction */
 .heading {
     background-color: #8ddbeb;
     color: #5C6AC4;
@@ -22,4 +25,36 @@ h1 {
     height: 150px;
     width: 150px;
     margin: 0px 20px 0px 20px;
+}
+
+/* section 1: basic-info */
+.basic-info {
+    color: #000;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+}
+
+h3 {
+    color: #0a40f2;
+}
+
+.me {
+    border-radius: 100%;
+    border-color: #0a40f2;
+    margin-bottom: 15px;
+}
+
+.me:hover {
+    background-color: #8ad9eb;
+    border-radius: 70%;
+}
+
+ul {
+    text-align: center;
+}
+
+.schools {
+    line-height: 1;
+    font-weight: bold;
 }
