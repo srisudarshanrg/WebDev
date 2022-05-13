@@ -1,0 +1,16 @@
+/* Navbar */
+.nav-link {
+    margin: 0 15px 0 15px;
+    font-weight: bold;
+}
+
+/* My Repositories */
+.repo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.btn-repo {
+    margin: 0 10px 0 10px;
+}
