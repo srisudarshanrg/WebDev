@@ -20,7 +20,7 @@
 </head>
 <body>
   <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
               <img src="images/favicon.png" alt="pirate" style="width: 30px;">
@@ -32,7 +32,7 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">About Me</a>
               </li>
               </li>
               <li class="nav-item">
@@ -44,10 +44,38 @@
       </nav>
 
     <!-- Links to Accounts -->
-    <section>
+    <section class="accounts">
       <div class="container">
-        <h1>My Accounts</h1>
+        <h1>I am on...</h1>
+        <a href="#"><button class="btn btn-outline-danger button-logos"><img src="images/Logos/youtube.png" alt="YouTube" width="30"><b> YouTube</b></button></a>
+        <a href="github.html"><button class="btn btn-outline-dark button-logos"><img src="images/Logos/github.png" alt="GitHub" width="30"><b> GitHub</b></button></a>
+        <a href="mailto:srisudarshanrg@gmail.com"><button class="btn btn-outline-success button-logos"><img src="images/Logos/gmail.png" alt="Gmail" width="30"><b> Gmail</b></button></a>
       </div>
-    </section>    
+    </section>
+    
+    <!-- Contact Me Page -->
+    <section class="contact-me">
+      <div class="container">
+        <h2><b>Contact Me Page</b></h2>
+        <br>
+        <form action="mailto:srisudarshanrg@gmail.com" method="post" enctype="text/plain">
+          <label for="#name" class="labels">Name Please: </label>
+          <input type="text" id="name" name="Name">
+          <br>
+          <br>
+          <label for="#email" class="labels">Email Please: </label>
+          <input type="email" id="email" name="Email">
+          <br>
+          <br>
+          <label for="#message" class="labels">Any Message For Me? </label>
+          <br>
+          <br>
+          <textarea name="Message" id="#message" cols="60" rows="10"></textarea>
+          <br>
+          <br>
+          <input type="submit" role="button" class="btn btn-success" value="Send">
+        </form>
+      </div>
+    </section>
 </body>
 </html>

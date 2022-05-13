@@ -1,13 +1,42 @@
+/* Navbar */
 .nav-link {
     font-weight: bold;
     margin: 0 15px 0 15px;
 }
 
+/* Body */
+body {
+    background-color: #abe69a;
+}
+
+/* My Accounts */
 h1 {
     font-family: 'Oleo Script', cursive;
 }
 
-.container {
+.accounts {
     margin-top: 20px;
     text-align: center;
+}
+
+.button-logos {
+    margin: 0 10px 0 10px;
+}
+
+/* Contact Me */
+h2 {
+    color: #8de876;
+}
+
+.contact-me {
+    background-color: darkgreen;
+    margin-top: 60px;
+    padding: 30px;
+    text-align: center;
+}
+
+.labels {
+    color: #8de876;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
 }
